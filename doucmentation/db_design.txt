@@ -1,0 +1,30 @@
+* Patient Database:
+  patient_id INT AUTO_INCREMENT (PK),
+  name VARCHAR(50),
+  age INT, 
+  gender VARCHAR(6),
+  phone VARCHAR(10),
+  email VARCHR(20), 
+  img TEXT
+
+* Doctors:
+  doctor_id INT AUTO_INCREMENT (PK),
+  name VARCHAR(50),
+  specialization VARCHAR(50),
+  phone VARCHAR(10),
+  img TEXT
+
+* Appointments:
+  appointment_id INT AUTO_INCREMENT (PK),
+  patient_id (FK) reference patient.patient_id,
+  doctor_id (FK) reference doctors.doctor_id,
+  date,
+  time_slot,
+  status enum(booked/cancelled/completed) default "booked"
+
+* Doctor_slots (optional):
+  slot_id (PK),
+  doctor_id (FK) reference doctors.doctor_id,
+  date,
+  time_slot,
+  is_available Boolean

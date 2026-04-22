@@ -1,0 +1,33 @@
+* Traditional haspitals appointment systems in many clinics are still:
+  - manual (registers / phone calls)
+  - time-consuming
+  - error-prone (double booking, lost records)
+  - patients wait long hours
+  - no real-time slot availability
+  - poor record Management
+  - difficultfor hospitals to scale
+Our system solves this by digitizing and automating appointment booking.
+----------------------------------------------------------------------------------
+
+* Market Need & Impact:
+  Healthcase is rapidly digitizing, especially after COVID.
+    - Patients expect online booking
+    - hospitals need efficient scheduling systems
+    - small clinics still lack affordable solutins
+
+  * Target Users:
+    - Small to medium hospitals
+    - clinics
+    - individual doctors
+
+  * Impact on Market:
+    - reduce waiting time
+    - improves hospital efficiency
+    - better patient experience
+    - enables data tracking (future scope, analytics)
+We are solving a real-world, everyday problem with a scalable digital solution.
+------------------------------------------------------------------------------------
+
+
+
+

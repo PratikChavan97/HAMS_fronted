@@ -1,0 +1,16 @@
+1. Patient Management:
+  - register Patient
+  - store basic details (name, age, contact, history ID)
+
+2. Doctor Management:
+  - Dostor profile (name, specialization, availability)
+  - time slots
+
+3. Appointment System:
+  - book Appointment
+  - cancel/reschedule
+  - avoid double booking
+
+4. Admin Panel
+  - view all appointments
+  - manage doctors
